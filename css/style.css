@@ -1,0 +1,32 @@
+
+
+#playground {
+	background: #e0ffe0 url(../images/pixel_grid.jpg);
+	width: 800px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+#ball {
+	background: #fbb;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	left: 150px;
+	top: 100px;
+	border-radius: 15px;
+}
+
+.paddle {
+	background: #bbf;
+	left: 50px;
+	top: 70px;
+	position: absolute;
+	width: 15px;
+	height: 100px;
+}
+
+#paddleB {
+	left: 735px;
+}
